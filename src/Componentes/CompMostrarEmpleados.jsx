@@ -2,7 +2,7 @@ import axios from 'axios';
 import{ Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
-const URL = 'http://localhost:5000/api/empleados/';
+//const URL = 'http://localhost:5000/api/empleados/';
 const URL = 'https://be-mongo-proyecto-final-2.onrender.com/api/empleados/'
 
 const CompMostrarEmpleados = () => {
