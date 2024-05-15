@@ -2,7 +2,8 @@ import axios from "axios";
 import {useNavigate, useParams} from  "react-router-dom";
 import { useState, useEffect } from "react";
 
-const URL = 'http://localhost:5000/api/clientes/'
+//const URL = 'http://localhost:5000/api/clientes/'
+const URL = 'https://be-mongo-proyecto-final-2.onrender.com/api/clientes'
 
 const CompEditarClientes = () => {
 
